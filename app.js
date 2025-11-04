@@ -6,7 +6,7 @@ require("dotenv").config();
 //cors
 const cors = require("cors");
 app.use(
-  cors({ origin: "http://localhost:5173", methods: ["GET", "POST", "PUT"] })
+  cors({ origin: "http://localhost:5174", methods: ["GET", "POST", "PUT"] })
 );
 //Built in middleware
 app.use(express.json());
